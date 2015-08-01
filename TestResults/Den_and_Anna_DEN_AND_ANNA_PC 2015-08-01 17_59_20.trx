@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2a496179-3f0e-4ff0-b4d6-555aa0e38a4f" name="Den_and_Anna@DEN_AND_ANNA_PC 2015-08-01 17:59:20" runUser="DEN_AND_ANNA_PC\Den_and_Anna" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0ce3eb92-ea3c-4e56-a3fc-567cc5b33c8c">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\GitProjects\InOfficeOneMonth\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Den_and_Anna_DEN_AND_ANNA_PC 2015-08-01 17_59_20">
+      <DeploymentItem filename="C:\GitProjects\InOfficeOneMonth\InOfficeOneMonth\bin\Debug\InOfficeOneMonth.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-08-01T17:59:20.3864660+03:00" queuing="2015-08-01T17:59:20.4094380+03:00" start="2015-08-01T17:59:20.4144391+03:00" finish="2015-08-01T17:59:30.6806305+03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test_GivenJob_vs_JobDone" storage="c:\gitprojects\inofficeonemonth\officetest\bin\debug\officetest.dll" id="979469f5-85db-a4e8-7518-50d6ff4516a7">
+      <Execution id="4e853f67-a958-4801-839a-fb7206209f0b" />
+      <TestMethod codeBase="C:/GitProjects/InOfficeOneMonth/OfficeTest/bin/Debug/OfficeTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OfficeTest.UnitTest1, OfficeTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_GivenJob_vs_JobDone" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="979469f5-85db-a4e8-7518-50d6ff4516a7" executionId="4e853f67-a958-4801-839a-fb7206209f0b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4e853f67-a958-4801-839a-fb7206209f0b" testId="979469f5-85db-a4e8-7518-50d6ff4516a7" testName="Test_GivenJob_vs_JobDone" computerName="DEN_AND_ANNA_PC" duration="00:00:10.0706824" startTime="2015-08-01T17:59:20.4164384+03:00" endTime="2015-08-01T17:59:30.6556576+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e853f67-a958-4801-839a-fb7206209f0b">
+      <Output>
+        <ErrorInfo>
+          <Message>Ошибка в Assert.AreEqual. Ожидается: &lt;5670&gt;. Фактически: &lt;5646&gt;. Work issued by 5670 man-hours, the work actually carried out on 5646 man-hours</Message>
+          <StackTrace>   в OfficeTest.UnitTest1.Test_GivenJob_vs_JobDone() в C:\GitProjects\InOfficeOneMonth\OfficeTest\UnitTest1.cs:строка 33
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

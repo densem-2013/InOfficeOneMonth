@@ -7,6 +7,9 @@ using System.IO;
 
 namespace InOfficeOneMonth.Entities
 {
+    /// <summary>
+    /// Вспомогательный класс для создания отчётного документа
+    /// </summary>
     public class PrintHelper
     {
         Office office;
@@ -14,6 +17,8 @@ namespace InOfficeOneMonth.Entities
         {
             office = of;
         }
+
+        //создаёт начальную HTML страницу
         public void CreateHtml()
         {
             string filename = @"Output\Employment.html";
@@ -35,6 +40,8 @@ namespace InOfficeOneMonth.Entities
                     sb.AppendLine("</html>");
                     File.WriteAllText(filename,sb.ToString(),Encoding.UTF8);
         }
+
+        //создаёт Javascript файл и записывает в него данные Office.Employment в формате JSON
         public void CreateDataScript()
         {
             string filename = @"Output\EmploymentData.js";

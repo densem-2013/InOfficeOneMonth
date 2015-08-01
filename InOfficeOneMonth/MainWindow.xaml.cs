@@ -5,6 +5,7 @@ using InOfficeOneMonth.Entities;
 using System.ComponentModel;
 using System.Threading;
 using System.Windows.Threading;
+using System.Text;
 
 namespace InOfficeOneMonth
 {
@@ -32,18 +33,30 @@ namespace InOfficeOneMonth
             int progss = office.Employees.Where(emp => emp is Programmer).Count();
             int disns = office.Employees.Where(emp => emp is Designer).Count();
             int tests = office.Employees.Where(emp => emp is Tester).Count();
-            int wrong = office.Employment.Where(pair => pair.Key.StartsWith("Rem") && (pair.Value.DischargeDuties.OfType<Responsibility>()
-                .Where(resp => resp == Responsibility.CreateReports || resp==Responsibility.SellServices).Count() > 0)).Count();
-            string str = "Quantity Employees equals:\n\tDirectors\t\t{0}\n\tAccountants\t{1}\n\tManagers\t{2}\n\t"+
-                            "Programmers\t{3}\n\tDesigners\t{4}\n\tTesters\t\t{5}\n\tRemotes\t\t{6}\n\n\tTotal\t\t{7}\n\n\tWrong\t\t{8}";
-            textBlock1.Text = string.Format(str, dirs, accs, mans, progss, disns, tests, office.RemoteEmployees.Count, office.TotalEmployees + office.RemoteEmployees.Count, wrong);
+
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("Quantity Employees equals:");
+            sb.AppendLine(String.Format("\tDirectors\t\t{0}", dirs));
+            sb.AppendLine(String.Format("\tAccountants\t{0}", accs));
+            sb.AppendLine(String.Format("\tManagers\t{0}", mans));
+            sb.AppendLine(String.Format("\tProgrammers\t{0}", progss));
+            sb.AppendLine(String.Format("\tDesigners\t{0}", disns));
+            sb.AppendLine(String.Format("\tTesters\t\t{0}", tests));
+            sb.AppendLine(String.Format("\tRemotes\t\t{0}", office.RemoteEmployees.Count));
+            sb.AppendLine(String.Format("\n\tTotal\t\t{0}", office.Employees.Count + office.RemoteEmployees.Count));
+
+            int JobGiven = office.GivenTasks.Sum(x => x.Volume * office.Employees.Where(emp => emp.PositionTask.FirstOrDefault() == x.Responsibility).Count());
+
+            sb.AppendFormat("\n\n\n\t\t\tTotal tasks given by {0} man-hours\n", JobGiven);
+
+            textBlock1.Text = sb.ToString();
             button2.Visibility = Visibility.Visible;
         }
 
         void bgworker_ProgressChanged(object sender, ProgressChangedEventArgs e)
         {
             this.progressBar1.Value = e.ProgressPercentage;
-            textBlock2.Text = String.Format("Выполнение  {0,-6} {1} %", new string('.', e.ProgressPercentage/14 % 4), e.ProgressPercentage * 100 / 160);
+            textBlock2.Text = String.Format("Processing  {0,-6} {1} %", new string('.', e.ProgressPercentage/14 % 4), e.ProgressPercentage * 100 / 160);
         }
 
         void bgworker_DoWork(object sender, DoWorkEventArgs e)

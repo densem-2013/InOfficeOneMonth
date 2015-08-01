@@ -11,6 +11,9 @@ using System.IO;
 
 namespace InOfficeOneMonth.Entities
 {
+    /// <summary>
+    /// Класс содержит массив занятости за весь месяц а также зарплату по неделям
+    /// </summary>
     public class Report
     {
         public Responsibility[, ,] DischargeDuties;
@@ -21,20 +24,30 @@ namespace InOfficeOneMonth.Entities
             WeekSalary = new uint[5];
         }
     }
-
+    /// <summary>
+    /// Основной класс, описывающий работу офиса
+    /// </summary>
     public class Office
     {
+        //содержит ссылку на обработчик временного события
         public delegate void TimePassedHandler(object sender,TimeEventArgs hpArgs);
+        //выполняет операцию в отдельном потоке для работы индикатора течения времени
         public static BackgroundWorker bgworker;
-
+        //список всех нанятых сотрудников
         public List<Employee> Employees { get; set; }
+        //список нанятых удалённых сотрудников
         public List<Employee> RemoteEmployees { get; set; }
+        //событие наступление нового часа
         public event TimePassedHandler NewHour;
+        //событие окончания недели
         public event TimePassedHandler EndWeek;
+        //ведомость, хранящая информацию о занятости всех сотрудников по именам,
+        //а также о недельной зарплате каждого из них
         public Dictionary<string, Report> Employment;
         Random rand = new Random();
-        public int TotalEmployees;
+        //содержит список выданных директором задач
         public List<Task> GivenTasks;
+
         public Office()
         {
             GivenTasks = new List<Task>();
@@ -45,11 +58,10 @@ namespace InOfficeOneMonth.Entities
             TakeEmployers();
         }
 
+        //метод моделирует наём в офис произвольного числа сотрудников
         public void TakeEmployers()
         {
             int employersNumber = rand.Next(9, 100);
-
-            TotalEmployees = employersNumber;
 
             int directorsNumber = employersNumber / 40;
 
@@ -121,11 +133,12 @@ namespace InOfficeOneMonth.Entities
             }
 
         }
-
+        //метод заносит данные о занятости сотрудником каждый час
         void newEmployee_JobProceeding(TaskCurrentTimeArgs tctargs)
         {
             Employment[tctargs.EmpName].DischargeDuties[tctargs.CurTime.Week, (int)tctargs.CurTime.Day, (int)tctargs.CurTime.Hour] = tctargs.CurResp;
         }
+        //метод раздаёт задачу всем целевым сотрудникам
         void GiveJobEmployees(TaskEventArgs targs)
         {
             IEnumerable<Employee> targetEmployees = TakeFreeResource(targs.Task);
@@ -137,6 +150,7 @@ namespace InOfficeOneMonth.Entities
             }
 
         }
+        //отчёт времени
         public void CountDown()
         {
             int progress = 1;
@@ -159,11 +173,17 @@ namespace InOfficeOneMonth.Entities
                 EndWeek(this, new TimeEventArgs(week, null, null));
             }
         }
+
+        //метод ищет свободные ресурсы, необходимые для выполнения задания директора и возвращает в виде списка сотрудников
         public List<Employee> TakeFreeResource(Task task)
         {
             Position pos;
             Enum.TryParse<Position>(Enum.GetName(typeof(Position), task.Responsibility), out pos);
-            int taskCount = Employees.Where(emp => emp.PositionTask.FirstOrDefault() == task.Responsibility).Count();
+
+            //количество сотрудников, необходимое для выполнения задания
+            //определяется по тому количеству основных сотрудников, у кого первая обязанность в списке
+            //соответствует целевой обязанности в выданном задании
+            int taskCount = Employees.Where(emp => emp.PositionTask.FirstOrDefault() == task.Responsibility).Count(); 
 
             List<Employee> lst = Employees
                 .Where(emp => emp.PositionTask.FirstOrDefault() == task.Responsibility && !emp.MainBusy).ToList();
@@ -207,6 +227,8 @@ namespace InOfficeOneMonth.Entities
 
             return lst;
         }
+
+        //Метод вызывает создание отчётного документа
         public void CreateReport()
         {
             PrintHelper hlp = new PrintHelper(this);
@@ -214,6 +236,8 @@ namespace InOfficeOneMonth.Entities
             hlp.CreateHtml();
         }
     }
+
+    //инкапсулирует аргументы для делегата
     public class TimeEventArgs : EventArgs
     {
         public readonly int Week;

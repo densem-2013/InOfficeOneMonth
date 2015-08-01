@@ -24,3 +24,15 @@ C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Proj
 C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\InOfficeOneMonth\InOfficeOneMonth\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\Den_and_Anna\documents\visual studio 2010\Projects\InOfficeOneMonth\InOfficeOneMonth\bin\Debug\InOfficeOneMonth.exe.config
 C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\InOfficeOneMonth\InOfficeOneMonth\bin\Debug\InOfficeOneMonth.exe.config
+C:\GitProjects\InOfficeOneMonth\InOfficeOneMonth\bin\Debug\InOfficeOneMonth.exe.config
+C:\GitProjects\InOfficeOneMonth\InOfficeOneMonth\obj\x86\Debug\InOfficeOneMonth.exe
+C:\GitProjects\InOfficeOneMonth\InOfficeOneMonth\obj\x86\Debug\InOfficeOneMonth.pdb
+C:\GitProjects\InOfficeOneMonth\InOfficeOneMonth\bin\Debug\InOfficeOneMonth.exe
+C:\GitProjects\InOfficeOneMonth\InOfficeOneMonth\bin\Debug\InOfficeOneMonth.pdb
+C:\GitProjects\InOfficeOneMonth\InOfficeOneMonth\obj\x86\Debug\MainWindow.baml
+C:\GitProjects\InOfficeOneMonth\InOfficeOneMonth\obj\x86\Debug\MainWindow.g.cs
+C:\GitProjects\InOfficeOneMonth\InOfficeOneMonth\obj\x86\Debug\App.g.cs
+C:\GitProjects\InOfficeOneMonth\InOfficeOneMonth\obj\x86\Debug\InOfficeOneMonth_MarkupCompile.cache
+C:\GitProjects\InOfficeOneMonth\InOfficeOneMonth\obj\x86\Debug\InOfficeOneMonth.g.resources
+C:\GitProjects\InOfficeOneMonth\InOfficeOneMonth\obj\x86\Debug\InOfficeOneMonth.Properties.Resources.resources
+C:\GitProjects\InOfficeOneMonth\InOfficeOneMonth\obj\x86\Debug\InOfficeOneMonth.csproj.GenerateResource.Cache

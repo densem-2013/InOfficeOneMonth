@@ -12,3 +12,10 @@ C:\Users\Den_and_Anna\Documents\Visual Studio 2010\Projects\InOfficeOneMonth\Off
 C:\Users\Den_and_Anna\Documents\Visual Studio 2010\Projects\InOfficeOneMonth\OfficeTest\obj\Debug\OfficeTest.csprojResolveAssemblyReference.cache
 C:\Users\Den_and_Anna\Documents\Visual Studio 2010\Projects\InOfficeOneMonth\OfficeTest\obj\Debug\OfficeTest.dll
 C:\Users\Den_and_Anna\Documents\Visual Studio 2010\Projects\InOfficeOneMonth\OfficeTest\obj\Debug\OfficeTest.pdb
+C:\GitProjects\InOfficeOneMonth\OfficeTest\bin\Debug\OfficeTest.dll
+C:\GitProjects\InOfficeOneMonth\OfficeTest\bin\Debug\OfficeTest.pdb
+C:\GitProjects\InOfficeOneMonth\OfficeTest\bin\Debug\InOfficeOneMonth.exe
+C:\GitProjects\InOfficeOneMonth\OfficeTest\bin\Debug\InOfficeOneMonth.pdb
+C:\GitProjects\InOfficeOneMonth\OfficeTest\obj\Debug\OfficeTest.csprojResolveAssemblyReference.cache
+C:\GitProjects\InOfficeOneMonth\OfficeTest\obj\Debug\OfficeTest.dll
+C:\GitProjects\InOfficeOneMonth\OfficeTest\obj\Debug\OfficeTest.pdb
