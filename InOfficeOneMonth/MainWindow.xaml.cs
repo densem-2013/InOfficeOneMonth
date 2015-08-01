@@ -86,7 +86,7 @@ namespace InOfficeOneMonth
         private void button2_Click(object sender, RoutedEventArgs e)
         {
             System.Diagnostics.Process.Start("Output\\Employment.html");
-            Environment.Exit(0);
+            //Environment.Exit(0);
         }
 
 
