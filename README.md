@@ -1,5 +1,6 @@
 # InOfficeOneMonth
 Modeling months of office
+
 Задание:
 
 Необходимо описать задачу с применением принципов ООП на языке Java или C#.
