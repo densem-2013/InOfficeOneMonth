@@ -1,0 +1,23 @@
+﻿body 
+{
+    background:rgb(214, 249, 250);
+    text-align:center;
+}
+.linkContainer
+{
+    white-space:nowrap;
+    width: 100%;
+}
+.weekLink
+{
+    display: inline-block;
+    width:120px;
+}
+.tooltip 
+{
+    display: none;
+    position: absolute;
+    border: lpx solid #333;
+    background-color: #ffed8a;
+    padding: 2px 6px;
+}

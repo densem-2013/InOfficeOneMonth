@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7ac50eea-8e44-4b22-899d-a1e2bd459982" name="Den_and_Anna@DEN_AND_ANNA_PC 2015-07-31 20:03:42" runUser="DEN_AND_ANNA_PC\Den_and_Anna" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0ce3eb92-ea3c-4e56-a3fc-567cc5b33c8c">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Users\Den_and_Anna\Documents\Visual Studio 2010\Projects\InOfficeOneMonth\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Den_and_Anna_DEN_AND_ANNA_PC 2015-07-31 20_03_42">
+      <DeploymentItem filename="C:\Users\Den_and_Anna\Documents\Visual Studio 2010\Projects\InOfficeOneMonth\InOfficeOneMonth\bin\Debug\InOfficeOneMonth.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-07-31T20:03:42.2525078+03:00" queuing="2015-07-31T20:03:42.2993876+03:00" start="2015-07-31T20:03:42.3149734+03:00" finish="2015-07-31T20:03:42.6118483+03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestWriteHtml" storage="c:\users\den_and_anna\documents\visual studio 2010\projects\inofficeonemonth\officetest\bin\debug\officetest.dll" id="c820c0c7-810c-280c-0512-190836a78972">
+      <Execution id="b34aef31-841d-4eac-a6d5-49ba7656fe0f" />
+      <TestMethod codeBase="C:/Users/Den_and_Anna/Documents/Visual Studio 2010/Projects/InOfficeOneMonth/OfficeTest/bin/Debug/OfficeTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OfficeTest.UnitTest1, OfficeTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestWriteHtml" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c820c0c7-810c-280c-0512-190836a78972" executionId="b34aef31-841d-4eac-a6d5-49ba7656fe0f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b34aef31-841d-4eac-a6d5-49ba7656fe0f" testId="c820c0c7-810c-280c-0512-190836a78972" testName="TestWriteHtml" computerName="DEN_AND_ANNA_PC" duration="00:00:00.0444252" startTime="2015-07-31T20:03:42.3149734+03:00" endTime="2015-07-31T20:03:42.5805995+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b34aef31-841d-4eac-a6d5-49ba7656fe0f">
+      <Output>
+        <ErrorInfo>
+          <Message>Ошибка в Assert.Fail. Work issued by 0 man-hours, the work actually carried out on 0 man-hours</Message>
+          <StackTrace>   в OfficeTest.UnitTest1.TestWriteHtml() в C:\Users\Den_and_Anna\Documents\Visual Studio 2010\Projects\InOfficeOneMonth\OfficeTest\UnitTest1.cs:строка 29
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

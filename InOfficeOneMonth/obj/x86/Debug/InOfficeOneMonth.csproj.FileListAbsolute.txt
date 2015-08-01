@@ -1,0 +1,26 @@
+c:\users\den_and_anna\documents\visual studio 2010\Projects\InOfficeOneMonth\InOfficeOneMonth\obj\x86\Debug\MainWindow.baml
+c:\users\den_and_anna\documents\visual studio 2010\Projects\InOfficeOneMonth\InOfficeOneMonth\obj\x86\Debug\MainWindow.g.cs
+c:\users\den_and_anna\documents\visual studio 2010\Projects\InOfficeOneMonth\InOfficeOneMonth\obj\x86\Debug\App.g.cs
+c:\users\den_and_anna\documents\visual studio 2010\Projects\InOfficeOneMonth\InOfficeOneMonth\obj\x86\Debug\InOfficeOneMonth_MarkupCompile.cache
+c:\users\den_and_anna\documents\visual studio 2010\Projects\InOfficeOneMonth\InOfficeOneMonth\obj\x86\Debug\InOfficeOneMonth.g.resources
+c:\users\den_and_anna\documents\visual studio 2010\Projects\InOfficeOneMonth\InOfficeOneMonth\obj\x86\Debug\InOfficeOneMonth.Properties.Resources.resources
+c:\users\den_and_anna\documents\visual studio 2010\Projects\InOfficeOneMonth\InOfficeOneMonth\obj\x86\Debug\InOfficeOneMonth.csproj.GenerateResource.Cache
+C:\Users\Den_and_Anna\documents\visual studio 2010\Projects\InOfficeOneMonth\InOfficeOneMonth\bin\Debug\InOfficeOneMonth.exe
+C:\Users\Den_and_Anna\documents\visual studio 2010\Projects\InOfficeOneMonth\InOfficeOneMonth\bin\Debug\InOfficeOneMonth.pdb
+C:\Users\Den_and_Anna\documents\visual studio 2010\Projects\InOfficeOneMonth\InOfficeOneMonth\obj\x86\Debug\InOfficeOneMonth.exe
+C:\Users\Den_and_Anna\documents\visual studio 2010\Projects\InOfficeOneMonth\InOfficeOneMonth\obj\x86\Debug\InOfficeOneMonth.pdb
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\InOfficeOneMonth\InOfficeOneMonth\obj\x86\Debug\InOfficeOneMonth.exe
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\InOfficeOneMonth\InOfficeOneMonth\obj\x86\Debug\InOfficeOneMonth.pdb
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\InOfficeOneMonth\InOfficeOneMonth\bin\Debug\InOfficeOneMonth.exe
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\InOfficeOneMonth\InOfficeOneMonth\bin\Debug\InOfficeOneMonth.pdb
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\InOfficeOneMonth\InOfficeOneMonth\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\InOfficeOneMonth\InOfficeOneMonth\obj\x86\Debug\MainWindow.baml
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\InOfficeOneMonth\InOfficeOneMonth\obj\x86\Debug\MainWindow.g.cs
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\InOfficeOneMonth\InOfficeOneMonth\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\InOfficeOneMonth\InOfficeOneMonth\obj\x86\Debug\InOfficeOneMonth_MarkupCompile.cache
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\InOfficeOneMonth\InOfficeOneMonth\obj\x86\Debug\InOfficeOneMonth.g.resources
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\InOfficeOneMonth\InOfficeOneMonth\obj\x86\Debug\InOfficeOneMonth.Properties.Resources.resources
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\InOfficeOneMonth\InOfficeOneMonth\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\InOfficeOneMonth\InOfficeOneMonth\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Den_and_Anna\documents\visual studio 2010\Projects\InOfficeOneMonth\InOfficeOneMonth\bin\Debug\InOfficeOneMonth.exe.config
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\InOfficeOneMonth\InOfficeOneMonth\bin\Debug\InOfficeOneMonth.exe.config

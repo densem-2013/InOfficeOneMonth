@@ -1,0 +1,14 @@
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\InOfficeOneMonth\OfficeTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\InOfficeOneMonth\OfficeTest\bin\Debug\OfficeTest.dll
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\InOfficeOneMonth\OfficeTest\bin\Debug\OfficeTest.pdb
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\InOfficeOneMonth\OfficeTest\bin\Debug\InOfficeOneMonth.exe
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\InOfficeOneMonth\OfficeTest\bin\Debug\InOfficeOneMonth.pdb
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\InOfficeOneMonth\OfficeTest\obj\Debug\OfficeTest.dll
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\InOfficeOneMonth\OfficeTest\obj\Debug\OfficeTest.pdb
+C:\Users\Den_and_Anna\Documents\Visual Studio 2010\Projects\InOfficeOneMonth\OfficeTest\bin\Debug\OfficeTest.dll
+C:\Users\Den_and_Anna\Documents\Visual Studio 2010\Projects\InOfficeOneMonth\OfficeTest\bin\Debug\OfficeTest.pdb
+C:\Users\Den_and_Anna\Documents\Visual Studio 2010\Projects\InOfficeOneMonth\OfficeTest\bin\Debug\InOfficeOneMonth.exe
+C:\Users\Den_and_Anna\Documents\Visual Studio 2010\Projects\InOfficeOneMonth\OfficeTest\bin\Debug\InOfficeOneMonth.pdb
+C:\Users\Den_and_Anna\Documents\Visual Studio 2010\Projects\InOfficeOneMonth\OfficeTest\obj\Debug\OfficeTest.csprojResolveAssemblyReference.cache
+C:\Users\Den_and_Anna\Documents\Visual Studio 2010\Projects\InOfficeOneMonth\OfficeTest\obj\Debug\OfficeTest.dll
+C:\Users\Den_and_Anna\Documents\Visual Studio 2010\Projects\InOfficeOneMonth\OfficeTest\obj\Debug\OfficeTest.pdb

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="98c51336-2506-4a66-a60a-89d3ec7170bc" name="Den_and_Anna@DEN_AND_ANNA_PC 2015-07-31 20:02:44" runUser="DEN_AND_ANNA_PC\Den_and_Anna" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0ce3eb92-ea3c-4e56-a3fc-567cc5b33c8c">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Users\Den_and_Anna\Documents\Visual Studio 2010\Projects\InOfficeOneMonth\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Den_and_Anna_DEN_AND_ANNA_PC 2015-07-31 20_02_44">
+      <DeploymentItem filename="C:\Users\Den_and_Anna\Documents\Visual Studio 2010\Projects\InOfficeOneMonth\InOfficeOneMonth\bin\Debug\InOfficeOneMonth.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-07-31T20:02:44.1483987+03:00" queuing="2015-07-31T20:02:44.1952810+03:00" start="2015-07-31T20:02:44.2108984+03:00" finish="2015-07-31T20:02:44.4921464+03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestWriteHtml" storage="c:\users\den_and_anna\documents\visual studio 2010\projects\inofficeonemonth\officetest\bin\debug\officetest.dll" id="c820c0c7-810c-280c-0512-190836a78972">
+      <Execution id="423d86e3-2f17-4829-80a1-0c589666ac0b" />
+      <TestMethod codeBase="C:/Users/Den_and_Anna/Documents/Visual Studio 2010/Projects/InOfficeOneMonth/OfficeTest/bin/Debug/OfficeTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OfficeTest.UnitTest1, OfficeTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestWriteHtml" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c820c0c7-810c-280c-0512-190836a78972" executionId="423d86e3-2f17-4829-80a1-0c589666ac0b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="423d86e3-2f17-4829-80a1-0c589666ac0b" testId="c820c0c7-810c-280c-0512-190836a78972" testName="TestWriteHtml" computerName="DEN_AND_ANNA_PC" duration="00:00:00.0234528" startTime="2015-07-31T20:02:44.2108984+03:00" endTime="2015-07-31T20:02:44.4608964+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="423d86e3-2f17-4829-80a1-0c589666ac0b">
+    </UnitTestResult>
+  </Results>
+</TestRun>
